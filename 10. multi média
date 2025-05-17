@@ -1,0 +1,117 @@
+Multimédia, audio a video formáty, střih a editace
+1. Co jsou multimédia
+Multimédia označují kombinaci různých typů mediálního obsahu – zejména textu, zvuku, obrázků, animací a videa – do jednoho integrovaného celku. Využívají se v mnoha oblastech:
+
+zábava (filmy, hry),
+
+vzdělávání (výukové programy),
+
+prezentace (např. PowerPoint),
+
+reklama a marketing,
+
+webdesign a aplikace.
+
+2. Audio formáty
+Audio formáty se používají pro ukládání a přenos zvukových dat. Rozlišujeme je podle:
+
+komprese (bezeztrátová vs. ztrátová),
+
+kvality zvuku (bitrate, frekvence, počet kanálů – mono/stereo),
+
+použití (hudba, mluvené slovo, profesionální produkce).
+
+Běžné audio formáty:
+
+MP3 – ztrátový, široce používaný, dobrý poměr kvalita/velikost.
+
+WAV – bezeztrátový, vysoká kvalita, vhodný pro profesionální práci.
+
+FLAC – bezeztrátová komprese, kvalitní a úspornější než WAV.
+
+AAC – ztrátový formát s lepší kvalitou než MP3 při stejné velikosti (např. u Apple zařízení).
+
+3. Video formáty
+Video soubor obvykle obsahuje:
+
+obrazový záznam (kodek),
+
+zvukovou stopu,
+
+titulky, metadata apod.
+
+Běžné video kontejnery:
+
+MP4 (.mp4) – nejrozšířenější, podporuje většinu zařízení a platforem.
+
+AVI (.avi) – starší, kompatibilní, ale méně efektivní komprese.
+
+MKV (.mkv) – moderní, podporuje více stop (zvuk, titulky), vhodný pro filmy.
+
+MOV (.mov) – formát od Apple, často používaný v profesionálních editorech.
+
+Kodeky:
+
+H.264 / AVC – moderní, kvalitní komprese, standard pro streamování (YouTube, Netflix).
+
+H.265 / HEVC – efektivnější než H.264, ale náročnější na výpočetní výkon.
+
+4. Střih a editace audia
+Audio editace zahrnuje úpravu zvukových stop – odstranění šumu, střih, úprava hlasitosti, přidání efektů, mixování.
+
+Nástroje pro úpravu audia:
+
+Audacity – zdarma, vhodný pro základní střih a úpravu.
+
+Adobe Audition – profesionální nástroj pro pokročilou práci se zvukem.
+
+GarageBand (Mac) – jednoduchý a intuitivní.
+
+Typické úpravy:
+
+střih (cut, copy, paste),
+
+normalizace a komprese hlasitosti,
+
+přidání reverbů, echo, filtrů,
+
+odstranění šumu a ruchů.
+
+5. Střih a editace videa
+Editace videa zahrnuje výběr a úpravu záběrů, přechody, efekty, zvuk, titulky.
+
+Základní kroky:
+
+Import záznamu a dat.
+
+Výběr klíčových scén (cut).
+
+Časová osa a uspořádání záběrů.
+
+Přidání přechodů, efektů a titulků.
+
+Zvuková postprodukce.
+
+Export do požadovaného formátu.
+
+Nástroje pro střih videa:
+
+DaVinci Resolve – profesionální, i bezplatná verze, vhodný na barevné korekce.
+
+Adobe Premiere Pro – velmi rozšířený profesionální nástroj.
+
+Sony Vegas – intuitivní, vhodný pro začátečníky i pokročilé.
+
+iMovie (Mac) – jednoduchý editor pro domácí použití.
+
+6. Export a distribuce
+Při exportu výsledného videa nebo audia je třeba volit správné parametry:
+
+rozlišení (FullHD, 4K),
+
+bitrate (ovlivňuje velikost i kvalitu),
+
+formát (MP4 pro video, MP3/FLAC pro audio),
+
+komprese (kvůli velikosti souboru).
+
