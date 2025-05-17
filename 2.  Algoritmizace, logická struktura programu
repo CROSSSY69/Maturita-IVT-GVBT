@@ -1,0 +1,109 @@
+# **Maturitní otázka: Algoritmizace, logická struktura programu, vývojový diagram, programovací jazyky, etapy vývoje programu**
+
+## **1. Algoritmizace**
+**Algoritmus** je přesný postup, který popisuje řešení daného problému v konečném počtu kroků.  
+**Vlastnosti algoritmu:**
+- **Konečnost** – algoritmus musí skončit po konečném počtu kroků.
+- **Determinovanost** – každý krok musí být jednoznačně definován.
+- **Vstup a výstup** – algoritmus přijímá vstupní data a produkuje výstup.
+- **Hromadnost** – řeší obecný problém, ne jen konkrétní případ.
+
+**Příklady algoritmů:**
+- Euklidův algoritmus (největší společný dělitel)
+- Třídicí algoritmy (Bubble Sort, QuickSort)
+- Vyhledávací algoritmy (binární vyhledávání)
+
+---
+
+## **2. Logická struktura programu**
+Program se skládá z logických struktur, které určují jeho průběh. Základní struktury jsou:
+1. **Sekvence** – příkazy se vykonávají postupně za sebou.
+2. **Větvení (podmínka)** – rozhodování na základě podmínky (if-else, switch).
+3. **Cyklus** – opakování části kódu (while, for, do-while).
+
+**Příklad větvení v Pythonu:**
+```python
+if x > 0:
+    print("Kladné číslo")
+else:
+    print("Záporné číslo nebo nula")
+```
+
+**Příklad cyklu v C:**
+```c
+for (int i = 0; i < 10; i++) {
+    printf("%d\n", i);
+}
+```
+
+---
+
+## **3. Vývojový diagram**
+**Vývojový diagram** je grafické znázornění algoritmu pomocí symbolů:
+- **Začátek/Konec** – ovál
+- **Operace** – obdélník
+- **Rozhodování** – kosočtverec
+- **Spojnice** – šipky
+
+**Příklad vývojového diagramu pro podmínku:**
+```
+[Start] → [Načti číslo x] → [Je x > 0?] → (Ano) → [Vypiš "Kladné"] → [Konec]
+                               ↓ (Ne)
+                          [Vypiš "Nekladné"] → [Konec]
+```
+
+---
+
+## **4. Programovací jazyky**
+Programovací jazyky slouží k zápisu algoritmů v podobě, kterou může počítač zpracovat.
+
+### **Dělení programovacích jazyků:**
+1. **Nízkoúrovňové** – blízké strojovému kódu (assembler).
+2. **Vysokoúrovňové** – čitelnější pro člověka (Python, Java, C++).
+3. **Kompilované** – převádějí se do strojového kódu před spuštěním (C, C++).
+4. **Interpretované** – překládají se za běhu (Python, JavaScript).
+
+### **Příklady jazyků:**
+- **Python** – jednoduchý, univerzální, vhodný pro začátečníky.
+- **Java** – objektově orientovaný, multiplatformní.
+- **C** – rychlý, používaný pro systémové programování.
+- **JavaScript** – webové aplikace, běží v prohlížeči.
+
+---
+
+## **5. Etapy vývoje programu**
+1. **Analýza problému** – definice požadavků a cílů programu.
+2. **Návrh algoritmu** – vývoj logické struktury (vývojový diagram, pseudokód).
+3. **Kódování** – převod algoritmu do programovacího jazyka.
+4. **Překlad (kompilace/interpretace)** – převod na strojový kód.
+5. **Testování a ladění** – odstraňování chyb (debugging).
+6. **Dokumentace** – popis funkčnosti pro budoucí údržbu.
+7. **Údržba** – aktualizace a vylepšování programu.
+
+**Příklad vývoje jednoduchého programu (kalkulačka):**
+1. **Analýza:** Uživatel zadá dvě čísla a operaci (+,-,*,/), program vypočítá výsledek.
+2. **Návrh:** Vývojový diagram pro načtení vstupu, výpočet a výstup.
+3. **Kódování:**
+   ```python
+   a = float(input("Zadejte první číslo: "))
+   b = float(input("Zadejte druhé číslo: "))
+   operace = input("Zadejte operaci (+, -, *, /): ")
+   
+   if operace == "+":
+       print(a + b)
+   elif operace == "-":
+       print(a - b)
+   elif operace == "*":
+       print(a * b)
+   elif operace == "/":
+       print(a / b)
+   else:
+       print("Neplatná operace")
+   ```
+4. **Testování:** Ověření správnosti pro různé vstupy.
+5. **Dokumentace:** Popis funkcí a návod k použití.
+
+---
+
+## **Závěr**
+Algoritmizace je základem programování, logická struktura určuje průběh programu, vývojový diagram pomáhá vizualizovat algoritmus a programovací jazyky umožňují převod myšlenek do spustitelného kódu. Etapy vývoje programu zajišťují systematický postup od návrhu po finální produkt.
