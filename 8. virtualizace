@@ -1,0 +1,84 @@
+Maturitní otázka: Virtualizace
+1. Co je virtualizace?
+Virtualizace je technologie, která umožňuje spouštět více operačních systémů nebo aplikací současně na jednom fyzickém zařízení (např. serveru nebo počítači) pomocí tzv. virtuálních strojů. Vytváří se tak „virtuální“ prostředí, které se chová jako skutečný počítač.
+
+Cílem virtualizace je efektivnější využití hardwarových prostředků, izolace systémů a jednodušší správa IT infrastruktury.
+
+2. Typy virtualizace
+a) Virtualizace hardwaru (systémová/OS virtualizace)
+
+Pomocí hypervizoru (viz níže) se vytvoří více virtuálních strojů (VM), z nichž každý může mít jiný operační systém.
+
+Virtuální stroje běží nezávisle a využívají společný fyzický hardware.
+
+b) Virtualizace operačního systému (kontejnerizace)
+
+Jediný operační systém běží více oddělených instancí (např. Docker).
+
+Každý kontejner obsahuje aplikaci a její závislosti, ale sdílí jádro OS.
+
+c) Virtualizace aplikací
+
+Aplikace běží v odděleném prostředí, bez nutnosti instalace na hostitelský systém.
+
+Příklady: Microsoft App-V, Citrix.
+
+d) Virtualizace úložiště a sítí
+
+Úložiště: Fyzické disky se spojí do virtuálního úložiště.
+
+Sítě: Virtuální přepínače, směrovače apod. (např. pomocí SDN – Software Defined Networking).
+
+3. Hypervizor
+Hypervizor (nebo také VMM – Virtual Machine Monitor) je software, který umožňuje vytváření a správu virtuálních strojů.
+
+Typy hypervizorů:
+
+Typ 1 (bare-metal) – běží přímo na hardwaru (např. VMware ESXi, Microsoft Hyper-V, Xen).
+
+Typ 2 (hostovaný) – běží nad operačním systémem (např. VirtualBox, VMware Workstation).
+
+4. Výhody virtualizace
+Efektivní využití hardwaru
+
+Nižší náklady na provoz a správu
+
+Snadné zálohování a obnova (snapshoty)
+
+Rychlá migrace mezi servery
+
+Izolace prostředí (vyšší bezpečnost)
+
+Snazší testování a vývoj
+
+5. Nevýhody virtualizace
+Vyšší nároky na výkon hardwaru
+
+Komplikovanější správa a konfigurace
+
+Možné bezpečnostní riziko při špatném nastavení
+
+Závislost na konkrétním hypervizoru nebo platformě
+
+6. Příklady využití virtualizace
+Servery ve firmách – více služeb na jednom fyzickém serveru
+
+Testovací prostředí pro vývojáře
+
+Cloudové služby (AWS, Azure, Google Cloud)
+
+Školní IT laboratoře
+
+Virtuální desktop (VDI – Virtual Desktop Infrastructure)
+
+7. Nástroje a platformy pro virtualizaci
+VMware – Workstation, vSphere, ESXi
+
+VirtualBox – open source nástroj
+
+Microsoft Hyper-V – integrovaný v některých verzích Windows
+
+KVM – virtualizace v Linuxu
+
+Docker – pro kontejnerizaci aplikací
+
