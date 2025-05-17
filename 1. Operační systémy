@@ -1,0 +1,87 @@
+Operační systémy, PC ve vědě a průmyslu, viry, ochrana, právní rámec počítačové techniky
+1. Operační systémy (OS)
+Definice:
+Operační systém je základní software, který umožňuje komunikaci mezi uživatelem a hardwarem počítače. Řídí a spravuje všechny programy a hardware.
+
+Funkce OS:
+Správa procesů – řízení běhu aplikací a jejich přepínání.
+
+Správa paměti – přidělování operační paměti programům.
+
+Správa souborového systému – čtení, zápis, ukládání souborů.
+
+Správa vstupně-výstupních zařízení – tiskárna, klávesnice, myš.
+
+Uživatelské rozhraní – textové (např. CLI) nebo grafické (GUI).
+
+Typy OS:
+Desktopové: Windows, macOS, Linux.
+
+Mobilní: Android, iOS.
+
+Serverové: Windows Server, Linux distribuce (Debian, Ubuntu Server).
+
+Embedded (vestavěné systémy): OS v autech, domácích spotřebičích, robotech.
+
+2. PC ve vědě a průmyslu
+Využití ve vědě:
+Simulace a modelování: počasí, fyzikální jevy, molekulární struktury.
+
+Zpracování dat: např. z velkých experimentů (CERN, astrofyzika).
+
+Umělá inteligence a strojové učení.
+
+Využití v průmyslu:
+Řízení výroby (automatizace, PLC).
+
+CAD/CAM systémy: návrh a výroba (AutoCAD, SolidWorks).
+
+Sledování kvality, skladové hospodářství.
+
+IoT zařízení a chytré továrny.
+
+3. Počítačové viry a škodlivý software
+Druhy malwaru:
+Virus – šíří se např. prostřednictvím infikovaných souborů.
+
+Červ (worm) – šíří se sám bez zásahu uživatele.
+
+Trojský kůň – vypadá jako neškodný program.
+
+Spyware – sleduje činnost uživatele bez vědomí.
+
+Ransomware – zašifruje data a požaduje výkupné.
+
+Cíle útoků:
+Poškození systému, krádež dat, vydírání, průmyslová špionáž.
+
+4. Ochrana proti virům a útokům
+Způsoby ochrany:
+Antivirový software: ESET, Avast, Kaspersky.
+
+Firewall: ochrana sítě před neoprávněným přístupem.
+
+Aktualizace systému a softwaru.
+
+Bezpečné chování: neotvírat podezřelé přílohy, navštěvovat důvěryhodné stránky.
+
+Zálohování dat.
+
+Používání silných hesel a vícefaktorové autentizace.
+
+5. Právní rámec počítačové techniky
+Autorské právo:
+Softwarové licence (proprietární vs. open-source).
+
+Nelegální kopírování je porušením autorského zákona.
+
+GDPR – ochrana osobních údajů:
+Nařízení EU, které upravuje zpracování osobních údajů.
+
+Uživatel má právo na přístup ke svým údajům, jejich opravu nebo výmaz.
+
+Kybernetická kriminalita:
+Zákon o kybernetické bezpečnosti (ČR).
+
+Trestní činy jako hacking, phishing, šíření malwaru.
+
