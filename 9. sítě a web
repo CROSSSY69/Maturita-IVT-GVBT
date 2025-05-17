@@ -1,0 +1,111 @@
+
+### **1. Úvod do počítačových sítí**
+
+Počítačová síť je soubor zařízení (počítačů, tiskáren, serverů apod.), které jsou propojeny komunikačními médii a umožňují si navzájem sdílet data, aplikace a zařízení.
+
+#### **Důvody pro využití sítí:**
+
+* Sdílení souborů a dat
+* Sdílení hardwaru (např. tiskárna)
+* Společné využívání internetového připojení
+* Komunikace mezi uživateli (e-mail, chat)
+* Centralizovaná správa (např. zálohování)
+
+---
+
+### **2. Typy počítačových sítí**
+
+| Typ                                 | Popis                                                             |
+| ----------------------------------- | ----------------------------------------------------------------- |
+| **LAN** (Local Area Network)        | Lokální síť – v rámci budovy nebo firmy                           |
+| **MAN** (Metropolitan Area Network) | Síť v rámci města                                                 |
+| **WAN** (Wide Area Network)         | Rozsáhlá síť – pokrývá velké geografické oblasti (např. Internet) |
+
+---
+
+### **3. Topologie sítí**
+
+Topologie definuje fyzické nebo logické uspořádání sítě:
+
+* **Sběrnicová** – všechna zařízení na jedné lince (už se téměř nepoužívá)
+* **Hvězdicová** – všechna zařízení jsou připojena ke středu (např. switch)
+* **Kruhová** – data kolují v kruhu
+* **Síťová (mesh)** – každé zařízení je propojeno s několika dalšími
+
+---
+
+### **4. Sítě – základní pojmy**
+
+* **IP adresa** – jednoznačný identifikátor zařízení v síti (např. 192.168.0.1)
+* **MAC adresa** – hardwarová adresa síťové karty (unikátní)
+* **Router** – směruje data mezi sítěmi, často zajišťuje připojení k internetu
+* **Switch** – propojuje zařízení v rámci LAN
+* **Modem** – převádí digitální data na analogový signál a naopak (připojení k internetu)
+
+---
+
+### **5. Připojení k internetu**
+
+* **Pevné připojení** – DSL, optika, kabel
+* **Bezdrátové připojení** – Wi-Fi, LTE, 5G
+* **Mobilní připojení** – prostřednictvím mobilních operátorů
+
+---
+
+### **6. Web a jeho princip**
+
+Web (World Wide Web) je systém propojených hypertextových dokumentů přístupných přes internet. Webové stránky se zobrazují pomocí **webového prohlížeče** (např. Chrome, Firefox).
+
+#### **Základní pojmy:**
+
+* **URL** – adresa webové stránky (např. [https://www.example.com](https://www.example.com))
+* **HTTP/HTTPS** – protokol pro přenos dat mezi klientem a serverem
+* **HTML, CSS, JavaScript** – základní technologie pro tvorbu webových stránek
+* **Webový server** – počítač, který poskytuje webové stránky (např. Apache, Nginx)
+* **Doména** – název webu (např. google.cz)
+* **Hosting** – služba, která umožňuje zveřejnění webových stránek na internetu
+
+---
+
+### **7. Zabezpečení v sítích**
+
+* **Firewall** – brána mezi vnitřní sítí a internetem, filtruje komunikaci
+* **Antivirový software** – chrání před škodlivými programy
+* **Šifrování** – zajišťuje bezpečný přenos dat (např. HTTPS)
+* **VPN** – virtuální privátní síť pro bezpečné připojení na dálku
+
+---
+
+### **8. Shrnutí**
+
+Počítačové sítě jsou nezbytnou součástí moderní informatiky. Umožňují efektivní sdílení informací, připojení k internetu a přístup k webovým službám. Znalosti o fungování sítí a webu jsou důležité pro správu IT infrastruktury i vývoj webových aplikací.
+
+---
+Podle velikosti
+PAN (personální síť) je nejmenší síť, jenž se používá má krátky dosah pouze několik metrů, často používanou pan sítí je například propojení sluchátek s telefonem přes technologii bluetooth 
+LAN (lokální síť) jedná se o síť se kterou se bežně setkáváme, jde například o domácnosti, nebo podniky jako jsou internetové  kavárny.
+někteří v porotě si také mohou pamatovat používání lan sítí na hraní videoher třeba counterstrike.
+MAN (metropolitní síť) je několik LAN sítí spojených dohromady, vzniká tedy síť která pokrývá vetší plochu například několik bloků, nebo celé město
+WAN (wide - rozsáhlá síť) jedná se o síť pokrývající obrovskou plochu například státy, nebo kontinenty
+
+TCP/IP model (4 vrstvy):
+Síťové rozhraní
+
+Síťová (IP)
+
+Transportní (TCP, UDP)
+
+Aplikační (HTTP, FTP, SMTP...)
+
+Základní protokoly:
+IP (Internet Protocol) - adresace a směrování
+
+TCP (Transmission Control Protocol) - spolehlivý přenos
+
+UDP (User Datagram Protocol) - rychlý, nespolehlivý přenos
+
+HTTP/HTTPS - webový přenos
+
+FTP - přenos souborů
+
+SMTP/POP3/IMAP - e-mailové protokoly
